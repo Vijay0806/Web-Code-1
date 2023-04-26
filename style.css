@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Noto+Sans&family=Rubik+Iso&display=swap');
+
+body{
+  background-image: linear-gradient(to right bottom, #4444, #4444, #4444, #4444, #4444);
+}
+.pagination{
+  /* color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.heading_container{
+    text-align: center;
+    padding-right: 70px;
+     padding: 20px;
+    color: yellow;
+    font-family: 'Bungee Spice', cursive;
+    transition: 0.9s;
+  }
+
+  .heading_container:hover{
+    cursor: pointer;
+    text-shadow: 45px 45px gold;
+
+  }
+
+  .main-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items:space-between;
+    justify-content:center;
+    margin:0 auto;
+    max-width: 1450px;
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  
+  .pokemon{
+    background-image: linear-gradient(to right bottom, aqua, #5b2c2b, #b05d34, #eca521, aqua);
+    border-radius: 10px;
+    padding:70px;
+    padding-bottom: 110px;
+    margin:20px;
+    text-align:left;
+    border:1px solid rgb(255, 255, 255);
+    text-shadow: 1px 2px  black;
+    box-shadow: #4444 5px 6px;
+    transition: 0.5s;
+    font-size: 100%;
+  
+  }
+
+  .pokemon:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+  }
+  
+  .img-container{
+    text-align:center;
+    width:100px;
+    height:230px;
+  }
+  img{
+    width: 100%;
+  }
+
